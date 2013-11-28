@@ -1,2 +1,2 @@
-Migrate.exe /conn "server=localhost;database=storedb_devel;User Id=root;Password=admin;" /provider mysql /assembly "C:\courses\IBSupport\harrypotter\HarryPotter\HarryPotter.Migrations\bin\Debug\HarryPotter.Migrations.dll" /verbose true
+Migrate.exe /conn "Server=JOSEGARCIA; Database=storedb_development; User Id=tb; Password=tb;" /provider sqlserver2008 /assembly "C:\GIT_Copia\GitHarryPotter\harrypotter\HarryPotter\HarryPotter.Migrations\bin\Debug\HarryPotter.Migrations.dll" /verbose true
 pause
