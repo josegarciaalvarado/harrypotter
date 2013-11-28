@@ -110,11 +110,21 @@ namespace HarryPotter.Domain.Tests
             LisBook.Add(book);
             Book book2 = new Book() { Price = 8, Name = "L1" };
             LisBook.Add(book2);
-            Book book3 = new Book() { Price = 8, Name = "L3" };
+            Book book3 = new Book() { Price = 8, Name = "L2" };
             LisBook.Add(book3);
+            Book book4 = new Book() { Price = 8, Name = "L2" };
+            LisBook.Add(book4);
+            Book book5 = new Book() { Price = 8, Name = "L3" };
+            LisBook.Add(book5);
+            Book book6 = new Book() { Price = 8, Name = "L3" };
+            LisBook.Add(book6);
+            Book book7 = new Book() { Price = 8, Name = "L4" };
+            LisBook.Add(book7);
+            Book book8 = new Book() { Price = 8, Name = "L5" };
+            LisBook.Add(book8);
 
             double total = _orderItem.TotalListBookDesc(LisBook); ;
-            Assert.AreEqual(22.95, Convert.ToDecimal(total.ToString(".##")));
+            Assert.AreEqual(70.65, Convert.ToDecimal(total.ToString(".##")));
         }
     }
 }

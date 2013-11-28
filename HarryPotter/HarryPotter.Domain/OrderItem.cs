@@ -57,7 +57,9 @@ namespace HarryPotter.Domain
                 }
             }
 
-            if (dif == 2)
+            if (dif == 1)
+                TotalBook = 8;
+            else if (dif == 2)
                 TotalBook = 14.95;
             else if(dif == 3)
                 TotalBook = 22.9;
